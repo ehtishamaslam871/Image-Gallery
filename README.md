@@ -52,4 +52,5 @@ image-gallery/
 
 Created by [Ehtisham Aslam](https://github.com/ehtishamaslam871)
 
+This project is open source and available under the MIT License.
 
