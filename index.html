@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beautiful Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> Stunning Image Gallery</h1>
+    <div class="filter-buttons">
+      <button onclick="filterGallery('all')">All</button>
+      <button onclick="filterGallery('nature')">Nature</button>
+      <button onclick="filterGallery('city')">City</button>
+    </div>
+  </header>
+
+
+<main class="gallery">
+    <div class="image nature"><img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
+         alt="Nature 1" onclick="openLightbox(this)" /></div>
+    <div class="image city"><img src="https://t4.ftcdn.net/jpg/01/81/07/91/360_F_181079136_irl2A25Clc5Bi2Lwa3Q9kJvF0RlFv8tU.jpg"
+         alt="City 1" onclick="openLightbox(this)" /></div>
+    <div class="image nature"><img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg"
+         alt="Nature 2" onclick="openLightbox(this)" /></div>
+    <div class="image city"><img src="https://urbandesignlab.in/wp-content/uploads/2021/11/City.jpg"
+         alt="City 2" onclick="openLightbox(this)" /></div>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <button class="nav prev" onclick="changeImage(-1)">❮</button>
+    <button class="nav next" onclick="changeImage(1)">❯</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
