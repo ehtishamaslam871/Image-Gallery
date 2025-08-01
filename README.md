@@ -19,6 +19,8 @@ A beautiful, responsive image gallery with filterable categories and lightbox mo
 <img width="1362" height="490" alt="image" src="https://github.com/user-attachments/assets/211926ec-d182-4959-a61a-22610ab37c2a" />
 <img width="1246" height="400" alt="image" src="https://github.com/user-attachments/assets/da465176-10ec-455c-86e5-41382993ab30" />
 <img width="1117" height="452" alt="image" src="https://github.com/user-attachments/assets/be69d95d-25cf-49a4-ad2f-de2f0b207c9a" />
+<img width="1358" height="643" alt="image" src="https://github.com/user-attachments/assets/e28628e8-08d0-4679-9f62-568fa25b4da3" />
+
 
 
 
